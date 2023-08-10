@@ -1,10 +1,9 @@
-// import PropTypes from 'prop-types';
 import { SectionTitleStyle } from './SectionTitle.styled';
 
-export const SectionTitle = () => {
+export const SectionTitle = ({title}) => {
     return (
         <SectionTitleStyle>
-            <h2 className='title'>Please leave your feedback</h2>
+            <h2 className='title'>{ title }</h2>
         </SectionTitleStyle>
     )
 }
